@@ -15,6 +15,18 @@
   margin: 146px auto auto auto;
 }
 
+@media (max-width: 413px) {
+  .button-content {
+    width: 300px;
+  }
+}
+
+@media (max-width: 313px) {
+  .button-content {
+    width: 250px;
+  }
+}
+
 .button-content:hover {
   outline: #7ecfe0 2px solid;
 }

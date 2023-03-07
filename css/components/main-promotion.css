@@ -1,0 +1,64 @@
+.main-promotion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px;
+  margin-top: 92px;
+  margin-left: 68px;
+  position: relative;
+}
+
+@media (max-width: 1150px) {
+  .main-promotion {
+    margin-left: 40px;
+    margin-top: 50px;
+  }
+}
+
+.main-promotion::before {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 2px;
+  width: 80px;
+  left: 0;
+  background-color: #ffffff;
+  transform: translateY(20px) translateX(-4px);
+  z-index: 1000;
+}
+
+@media (max-width: 1150px) {
+  .main-promotion::before {
+    width: 50px;
+    transform: translateY(12px) translateX(23px);
+  }
+}
+
+.main-promotion .price {
+  font-family: "Barlow Condensed";
+  font-weight: 600;
+  font-size: 32px;
+  color: #ffffff;
+}
+
+@media (max-width: 1150px) {
+  .main-promotion .price {
+    font-size: 20px;
+  }
+}
+
+.main-promotion .text {
+  font-family: "Barlow Condensed";
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+}
+@media (max-width: 1150px) {
+  .main-promotion .text {
+    font-size: 14px;
+  }
+}
+
+span {
+  color: #0ea882;
+}

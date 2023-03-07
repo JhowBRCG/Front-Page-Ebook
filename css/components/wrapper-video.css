@@ -1,0 +1,7 @@
+.wrapper-video {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 118px;
+  margin-top: 122px;
+}

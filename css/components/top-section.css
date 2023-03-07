@@ -1,0 +1,58 @@
+.top-section {
+  padding: 250px;
+  height: 95vh;
+  background: linear-gradient(to right, #d9d9d9 42%, #424242 42%);
+  position: relative;
+  border-bottom: 5px solid #7ecfe0;
+}
+
+@media (max-width: 1730px) {
+  .top-section {
+    background: linear-gradient(to right, #d9d9d9 40%, #424242 40%);
+  }
+}
+
+@media (max-width: 1300px) {
+  .top-section {
+    background: linear-gradient(to right, #d9d9d9 44%, #424242 44%);
+  }
+}
+
+@media (max-width: 1180px) {
+  .top-section {
+    background: linear-gradient(to right, #d9d9d9 48%, #424242 48%);
+  }
+}
+
+@media (max-width: 604px) {
+  .top-section {
+    background: linear-gradient(to right, #d9d9d9 45%, #424242 45%);
+  }
+}
+
+@media (max-width: 604px) {
+  .top-logo {
+    width: 200px;
+  }
+}
+
+.top-section .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 87px;
+}
+
+@media (max-width: 604px) {
+  .top-section .wrapper {
+    gap: 27px;
+  }
+}
+
+.top-section .right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  z-index: 10001;
+}

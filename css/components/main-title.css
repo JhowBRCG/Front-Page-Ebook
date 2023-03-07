@@ -1,9 +1,15 @@
 .main-title {
-  font-family: "Barlow Condensed";
+  font-family: "Barlow Condensed", sans-serif;
   font-weight: 600;
   font-size: 48px;
   color: #0ea882;
   max-width: 600px;
+}
+
+@media (max-width: 500px) {
+  .main-title {
+    text-align: center;
+  }
 }
 
 .main-title.-content {

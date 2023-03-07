@@ -11,7 +11,13 @@
 @media (max-width: 1150px) {
   .main-promotion {
     margin-left: 40px;
-    margin-top: 50px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .main-promotion {
+    margin: 0;
   }
 }
 
@@ -35,7 +41,7 @@
 }
 
 .main-promotion .price {
-  font-family: "Barlow Condensed";
+  font-family: "Barlow Condensed", sans-serif;
   font-weight: 600;
   font-size: 32px;
   color: #ffffff;

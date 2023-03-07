@@ -15,18 +15,19 @@
 @media (max-width: 1310px) {
   .top-section {
     padding: 160px;
-  }
-}
-
-@media (max-width: 1300px) {
-  .top-section {
-    background: linear-gradient(to right, #d9d9d9 44%, #424242 44%);
+    background: linear-gradient(to right, #d9d9d9 35%, #424242 35%);
   }
 }
 
 @media (max-width: 1180px) {
   .top-section {
-    background: linear-gradient(to right, #d9d9d9 48%, #424242 48%);
+    background: linear-gradient(to right, #d9d9d9 40%, #424242 40%);
+  }
+}
+
+@media (max-width: 1070px) {
+  .top-section {
+    background: linear-gradient(to right, #d9d9d9 45%, #424242 45%);
   }
 }
 
@@ -45,7 +46,7 @@
 @media (max-width: 500px) {
   .top-section {
     padding: 0;
-    background: linear-gradient(to bottom, #d9d9d9 27%, #424242 27%);
+    background: linear-gradient(to bottom, #d9d9d9 25%, #424242 25%);
   }
 }
 
